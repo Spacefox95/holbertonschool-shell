@@ -44,7 +44,7 @@ This project is dedicated to understand and learn the **shell**. The idea is to 
 ## Tasks
 
 <details>
-<summary>0.Where am I ?</summary>
+<summary>0. Where am I ?</summary>
 <p>Write a script that prints the absolute path name of the current working directory.
 
 Example :
@@ -167,7 +167,7 @@ $
 
 <details>
   <summary>7. Betty in my first directory</summary>
-  <p>Move the file betty from /tmp/ to /tmp/my_first_directory.
+  <p>Move the file betty from `/tmp/` to `/tmp/my_first_directory`.
 
 Example:
 ```
@@ -183,7 +183,7 @@ $
   <summary>8. Bye bye Betty</summary>
   <p>Delete the file betty.
 
-The file betty is in /tmp/my_first_directory
+The file `betty` is in `/tmp/my_first_directory`
 Example:
 ```
 $ ./8-firstdelete
@@ -195,7 +195,7 @@ $
 
 <details>
   <summary>9. Bye bye My first directory</summary>
-  <p>Delete the directory my_first_directory that is in the /tmp directory.
+  <p>Delete the directory `my_first_directory` that is in the `/tmp` directory.
 
 Example:
 ```
