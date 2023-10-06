@@ -31,19 +31,30 @@ This project is dedicated to understand and learn the **shell**. The idea is to 
  
 ## Requirements
 
-- Allowed editors: ==vi==, ==vim==, ==emacs==
+- Allowed editors: `vi`, `vim`, `emacs`
 - All your scripts will be tested on Ubuntu 20.04 LTS
-- All your scripts should be exactly two lines long (==$ wc -l file== should print 2)
+- All your scripts should be exactly two lines long (`$ wc -l file` should print 2)
 - All your files should end with a new line (why?)
-- The first line of all your files should be exactly ==#!/bin/bash==
-- A ==README.md== file at the root of the repo, containing a description of the repository
-- A ==README.md== file, at the root of the folder of this project, describing what each script is doing
-- You are not allowed to use backticks, ==&&==, ==||== or ==;==
+- The first line of all your files should be exactly `#!/bin/bash`
+- A `README.md` file at the root of the repo, containing a description of the repository
+- A `README.md` file, at the root of the folder of this project, describing what each script is doing
+- You are not allowed to use backticks, `&&`, `||` or `;`
 - All your scripts must be executable. To make your file executable, use the ==chmod== command: ==chmod u+x file==. Later, we’ll learn more about how to utilize this command. 
 
 ## Tasks
 
-0. Where am I ?
+0. <details>
+<summary>Where am I ?</summary>
+Write a script that prints the absolute path name of the current working directory.
+
+Example :
+```
+$ ./0-current_working_directory
+/basics
+$
+```
+</detail>
+
 1. What's in there ?
 2. There is no place like home
 3. The long format
