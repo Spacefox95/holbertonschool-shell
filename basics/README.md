@@ -229,7 +229,6 @@ julien@ubuntu:/tmp$ pwd
   <p>Write a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the `/boot` directory (in this order), in long format.
 
 Be careful with the `/`
-    
   </p>
 </details>
 
@@ -347,6 +346,6 @@ julien@ubuntu:/tmp/h$ ls -l welcome/to
 total 4
 drwxrwxr-x 2 julien julien 4096 Sep 20 12:11 school
 julien@ubuntu:/tmp/h$ 
-```    
-  </p>
+```
+</p>
 </details>
