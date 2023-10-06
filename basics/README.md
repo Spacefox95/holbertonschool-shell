@@ -43,9 +43,9 @@ This project is dedicated to understand and learn the **shell**. The idea is to 
 
 ## Tasks
 
-0. <details>
-<summary>Where am I ?</summary>
-Write a script that prints the absolute path name of the current working directory.
+<details>
+<summary>0.Where am I ?</summary>
+<p>Write a script that prints the absolute path name of the current working directory.
 
 Example :
 ```
@@ -53,7 +53,8 @@ $ ./0-current_working_directory
 /basics
 $
 ```
-</detail>
+</p>
+</details>
 
 1. What's in there ?
 2. There is no place like home
