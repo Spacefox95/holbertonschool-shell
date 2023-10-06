@@ -44,7 +44,7 @@ This project is dedicated to understand and learn the **shell**. The idea is to 
 ## Tasks
 
 <details>
-<summary>0. Where am I ?</summary>
+<summary>**0. Where am I ?**</summary>
 <p>Write a script that prints the absolute path name of the current working directory.
 
 Example :
@@ -57,7 +57,7 @@ $
 </details>
 
 <details>
-  <summary>1. What’s in there?</summary>
+  <summary>**1. What’s in there?**</summary>
   <p>Display the contents list of your current directory.
 
 Example:
@@ -71,7 +71,7 @@ $
 </details>
 
 <details>
-  <summary>2. There is no place like home</summary>
+  <summary>**2. There is no place like home**</summary>
   <p>Write a script that changes the working directory to the user’s home directory.
 
 - You are not allowed to use any shell variables
@@ -89,7 +89,7 @@ julien@ubuntu:~$
 </details>
 
 <details>
-<summary>3. The long format</summary>
+<summary>**3. The long format**</summary>
 <p> Display current directory contents in a long format
 
 Example:
@@ -106,7 +106,7 @@ total 40
 </details>
 
 <details>
-  <summary>4. Hidden files</summary>
+  <summary>**4. Hidden files**</summary>
   <p>Display current directory contents, including hidden files (starting with .). Use the long format.
 
 Example:
@@ -127,7 +127,7 @@ $
 </details>
 
 <details>
-  <summary>5. I love numbers</summary>
+  <summary>**5. I love numbers**</summary>
   <p>Display current directory contents.
 
 Long format
@@ -152,7 +152,7 @@ $
 </details>
 
 <details>
-  <summary>6. Welcome</summary>
+  <summary>**6. Welcome**</summary>
   <p>Create a script that creates a directory named my_first_directory in the /tmp/ directory.
 
 Example:
@@ -166,7 +166,7 @@ $
 </details>
 
 <details>
-  <summary>7. Betty in my first directory</summary>
+  <summary>**7. Betty in my first directory**</summary>
   <p>Move the file betty from `/tmp/` to `/tmp/my_first_directory`.
 
 Example:
@@ -180,7 +180,7 @@ $
 </details>
 
 <details>
-  <summary>8. Bye bye Betty</summary>
+  <summary>**8. Bye bye Betty**</summary>
   <p>Delete the file betty.
 
 The file `betty` is in `/tmp/my_first_directory`
@@ -194,7 +194,7 @@ $
 </details>
 
 <details>
-  <summary>9. Bye bye My first directory</summary>
+  <summary>**9. Bye bye My first directory**</summary>
   <p>Delete the directory `my_first_directory` that is in the `/tmp` directory.
 
 Example:
@@ -208,8 +208,9 @@ $
 </details>
 
 <details>
-  <summary>10. Back to the future</summary>
+  <summary>**10. Back to the future**</summary>
   <p>Write a script that changes the working directory to the previous one.
+
 ```
 julien@ubuntu:/tmp$ pwd
 /tmp
@@ -225,7 +226,7 @@ julien@ubuntu:/tmp$ pwd
 </details>
 
 <details>
-  <summary>11. Lists</summary>
+  <summary>**11. Lists**</summary>
   <p>Write a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the `/boot` directory (in this order), in long format.
 
 Be careful with the `/`
@@ -233,7 +234,7 @@ Be careful with the `/`
 </details>
 
 <details>
-  <summary>12. File type</summary>
+  <summary>**12. File type**</summary>
   <p>Write a script that prints the type of the file named `iamafile`. The file `iamafile` will be in the `/tmp` directory when we will run your script.
 
 Example
@@ -247,7 +248,7 @@ Note that depending on the file, the output of your script will be different.
 </details>
 
 <details>
-  <summary>13. We are symbols, and inhabit symbols</summary>
+  <summary>**13. We are symbols, and inhabit symbols**</summary>
   <p>Create a symbolic link to `/bin/ls`, named `__ls__`. The symbolic link should be created in the current working directory.
 ```
 ubuntu@ip-172-31-63-244:/tmp/sym$ ls -la
@@ -265,7 +266,7 @@ lrwxrwxrwx  1 ubuntu ubuntu      7 Sep 20 03:24 __ls__ -> /bin/ls
 </details>
 
 <details>
-  <summary>14. Copy HTML files</summary>
+  <summary>**14. Copy HTML files**</summary>
   <p>Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
 
 You can consider that all HTML files have the extension `.html`
@@ -274,7 +275,7 @@ You can consider that all HTML files have the extension `.html`
 </details>
 
 <details>
-  <summary>15. Let's move</summary>
+<summary>**15. Let's move**</summary>
   <p>Create a script that moves all files beginning with an uppercase letter to the directory `/tmp/u`.
 
 You can assume that the directory `/tmp/u` will exist when we will run your script
@@ -305,11 +306,11 @@ drwxrwxr-x 3 ubuntu ubuntu 4096 Sep 20 03:33 ..
 -rw-rw-r-- 1 ubuntu ubuntu    0 Sep 20 03:32 My_file
 -rw-rw-r-- 1 ubuntu ubuntu    0 Sep 20 03:32 Elif_ym
 ```    
-  </p>
+</p>
 </details>
 
 <details>
-  <summary>16. Clean Emacs</summary>
+  <summary>**16. Clean Emacs**</summary>
   <p>Create a script that deletes all files in the current working directory that end with the character `~`.
 ```
 ubuntu@ip-172-31-63-244:/tmp/sym$ ls
@@ -323,7 +324,7 @@ ubuntu@ip-172-31-63-244:/tmp/emacs$
 </details>
 
 <details>
-  <summary>17. Tree</summary>
+  <summary>**17. Tree**</summary>
   <p>Create a script that creates the directories `welcome/`, `welcome/to/` and `welcome/to/school` in the current directory.
 
 You are only allowed to use two spaces (and lines) in your script, not more.
