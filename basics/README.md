@@ -89,11 +89,11 @@ julien@ubuntu:~$
 </details>
 
 <details>
-  <summary>3. The long format</summary>
-  <p>Display current directory contents in a long format
-```
-Example:
+<summary>3. The long format</summary>
+<p> Display current directory contents in a long format
 
+Example:
+```
 $ ./3-listfiles
 total 40
 -rwxr-xr-x@ 1 sylvain staff 18 Jan 25 00:19 0-current_working_directory
@@ -108,9 +108,9 @@ total 40
 <details>
   <summary>4. Hidden files</summary>
   <p>Display current directory contents, including hidden files (starting with .). Use the long format.
-```
-Example:
 
+Example:
+```
 $ ./4-listmorefiles
 total 48
 drwxr-xr-x@ 6 sylvain staff 204 Jan 25 00:29 .
