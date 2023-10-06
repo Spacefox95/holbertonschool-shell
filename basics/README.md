@@ -325,7 +325,7 @@ ubuntu@ip-172-31-63-244:/tmp/emacs$
 
 <details>
   <summary><b>17. Tree</b></summary>
-  <p>Create a script that creates the directories `welcome/`, `welcome/to/` and `welcome/to/school` in the current directory.
+  <p>Create a script that creates the directories <mark>welcome/</mark>, <mark>welcome/to/</mark> and <mark>welcome/to/school</mark> in the current directory.
 
 You are only allowed to use two spaces (and lines) in your script, not more.
 ```
