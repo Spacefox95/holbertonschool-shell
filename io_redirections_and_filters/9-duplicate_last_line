@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -n1 /tmp/h$/iacta >> /tmp/h$/iacta
+tail -n1 iacta >> iacta
