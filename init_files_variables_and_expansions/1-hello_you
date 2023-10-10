@@ -1,2 +1,2 @@
 #!/bin/bash
-whoami=$USER | cat hello user
+id="$USER" |echo "hello user"
