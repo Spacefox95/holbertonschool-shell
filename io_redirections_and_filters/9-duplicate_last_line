@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -1 /tmp/h$/iacta >> /tmp/h$/iacta
+echo 'tail -n 1 /tmp/h$/iacta' >> /tmp/h$/iacta
