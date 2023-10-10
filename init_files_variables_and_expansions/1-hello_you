@@ -1,2 +1,2 @@
-#!/bash/bin
+#!/bin/bash
 whoami=$USER | cat hello user
