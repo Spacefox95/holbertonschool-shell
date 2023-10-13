@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -Ra . | sort | uniq -u
+find -empty -printf "%f\n"
